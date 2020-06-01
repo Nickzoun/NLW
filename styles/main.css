@@ -5,10 +5,11 @@
 
 html {
     font-family: 'Roboto', sans-serif;
+    background: url('fundo.jpg') no-repeat;
+    background-size: 100vw 100vh;
 }
 
 body {
-    background-color: #f0f0f5;
     -webkit-font-smoothing: antialiased;
 }
 
