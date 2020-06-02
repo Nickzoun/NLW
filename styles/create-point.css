@@ -1,0 +1,28 @@
+#page-create-point {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1100px;
+}
+
+#page-create-point header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+#page-create-point header a {
+    color: var(--title-color);
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+#page-create-point header a span {
+    background-image: url('../assets/arrow-left.svg');
+    display: flex;
+    margin-right: 16px;
+    height: 20px;
+    width: 20px;
+} 
+    

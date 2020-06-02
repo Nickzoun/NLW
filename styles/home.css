@@ -1,0 +1,100 @@
+#page-home {
+    height: 100vh;
+    
+    background: url('../assets/home-background.svg') no-repeat;
+    background-position: 35vw 16vh;
+    }
+
+#page-home .content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    height: 100%;
+    width: 90%;
+    max-width: 1100px;
+}
+
+#page-home header {
+    display: flex;    
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+#page-home header a {
+    color: var(--title-color);
+    display: flex;
+    font-weight: 700;
+}
+
+#page-home header a:active,
+#page-home header a:hover {
+    text-shadow: 2px 2px 10px var(--primary-color);
+}
+
+#page-home header a span {
+    background-image: url('../assets/log-in.svg');
+    display: flex;
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+#page-home main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 560px;
+}
+
+#page-home main h1 {
+    font-size: 54px;
+    margin: 0;
+}
+
+#page-home main p {
+    font-size: 24px;
+    margin: 24px 0 0 0;
+}
+
+#page-home main a {
+    background: var(--primary-color);
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    height: 72px;
+    width: 100%;
+    max-width: 360px;
+    transition: 500ms;
+}
+
+#page-home main a:active,
+#page-home main a:hover {
+    background-color: #2da867;
+}
+
+#page-home main a span {
+    background-color: rgba(0, 0, 0, 0.08);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 72px;
+    height: 72px;
+}
+
+#page-home main a span::after {
+    content: "";
+    background-image: url('../assets/search.svg');
+    height: 20px;
+    width: 20px;
+}
+
+#page-home main a strong {
+    flex: 1;
+    text-align: center;
+}
