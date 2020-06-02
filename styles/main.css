@@ -3,9 +3,13 @@
     --primary-color: #34cb79;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 html {
     font-family: 'Roboto', sans-serif;
-    background: url('../assets/fundo.jpg') no-repeat;
+    background-color: #f0f0f6;
     background-size: 100vw 100vh;
 }
 
