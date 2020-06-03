@@ -60,5 +60,70 @@ form legend h2 {
 
 form .field {
     display: flex;
+    flex: 1;
     flex-direction: column;
+    margin-bottom: 24px;
+}
+
+form .field-group {
+    display: flex;
+}
+
+form select,
+form input {
+    background-color: #f0f0f5;
+    border: 0;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 16px 24px;
+}
+
+form input[type="number"]::-webkit-inner-spin-button,
+form input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+form input[type="number"] {
+    width: 150px;
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+form input[name="address"] {
+    width: 400px;
+}
+
+form select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+form label {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+form .field-group .field + .field {
+    margin-left: 24px;
+}
+
+form button {
+    background-color: var(--primary-color);
+    border: 0;
+    border-radius: 8px;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-left: 160px;
+    transition: background-color 500ms;
+    width: 260px;
+    height: 56px;
+}
+
+form button:active,
+form button:hover {
+    background-color: #2da867;
 }
