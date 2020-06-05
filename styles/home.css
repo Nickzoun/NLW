@@ -80,7 +80,7 @@
 
 #page-home main a:active,
 #page-home main a:hover {
-    background-color: #2da867;
+    background-color: var(--button-hover-color);
 }
 
 #page-home main a span {
