@@ -3,11 +3,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 92vh;
     position: fixed;
-    top: 0;
+    top: 30px;
+    right: 66px;
     transition: 500ms;
-    width: 100vw;
+    width: 90vw;
 }
 
 #modal.hide {
@@ -48,6 +49,7 @@
 
 #modal form fieldset {
     border: 0;
+    padding: 0;
 }
 
 #modal form label {
@@ -78,7 +80,7 @@
     height: 50px;
     margin-top: 10px;
     transition: 500ms;
-    width: 400px;
+    width: 416px;
 }
 
 #modal button:active,

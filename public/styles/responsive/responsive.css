@@ -34,4 +34,16 @@
     #page-home main {
         align-items: center;
     }
+
+    #page-create-point .field-group {
+        flex-direction: column;
+    }
+
+    #page-create-point .field-group .field + .field {
+        margin-left: 0;
+    }
+
+    .items-grid {
+        grid-template-columns: 1fr;
+    }
 }

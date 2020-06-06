@@ -48,14 +48,33 @@ form {
 
 form h1 {
     font-size: 36px;
+    text-shadow: 1px 1px 10px #a4a4a4;
 }
 
 form fieldset {
     border: 0;
 }
 
+form legend {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
 form legend h2 {
     font-size: 25px;
+}
+
+form legend span {
+    color: var(--title-color);
+    font-size: 15px;
+    text-shadow: 5px 3px 10px var(--text-shadow-color);
+}
+
+form fieldset legend h2.com {
+    font-size: 25px;
+    text-shadow: -5px -2px 10px var(--text-shadow-color);
 }
 
 form .field {
