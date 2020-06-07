@@ -2,6 +2,99 @@
     #page-home main h1 {
         font-size: 2.9em;
     }
+
+    #page-home header a span {
+        width: 24px;
+        margin-right: 5px;
+    }
+
+    #modal {
+        right: 20px;
+    }
+
+    #modal .content {
+        width: 225px;
+    }
+
+    #modal .header h1 {
+        font-size: 1.7em;
+    }
+
+    #modal .header a {
+        background-image: url("../../assets/x.svg") no-repeat;
+        width: 30px;
+    }
+    
+    #modal input {
+        width: 210px;
+    }
+
+    #page-create-point form {
+        padding: 64px 32px;
+    }
+
+    #page-create-point form h1 {
+        font-size: 2em;
+        margin: 0 0 10px 0;
+    }
+
+    #page-create-point form legend h2 {
+        font-size: 1.3em;
+        margin: 25px 0 20px;
+    }
+    #page-create-point form legend span {
+        font-size: 0.85em;
+        margin-left: 44px;
+    }
+
+    #page-create-point form label {
+        font-size: 0.8em;
+        margin: 8px 0;
+    }
+
+    #page-create-point form button {
+        margin-left: 3px;
+        width: 240px;
+    }
+
+    #page-create-point form fieldset {
+        padding: 0;
+    }
+
+    #page-create-point form select,
+    #page-create-point form input {
+        width: 240px;
+    }
+
+    #modal.point {
+        right: 20px;
+    }
+
+    #modal.point h1 {
+        font-size: 1.73em;
+    }
+
+    #page-search-result {
+        margin: 0 0 0 15px;
+    }
+
+    #page-search-result header a {
+        margin-left: 45px;
+    }
+
+    #page-search-result header a span {
+        width: 45px;
+    }
+    #page-search-result main .cards h1,
+    #page-search-result main .cards h3,
+    #page-search-result main .cards p,
+    #page-search-result main h4 {
+        text-align: center;
+    }
+
+    #page-search-result main .cards {
+        grid-template-columns: 1fr;
+    } 
 }
 
 @media (max-width: 470px) {

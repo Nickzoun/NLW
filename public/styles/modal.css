@@ -87,14 +87,50 @@
     flex-direction: column;
 }
 
-/* modal do create-point */
+/* modal do create-point 
+   e do fail*/
+#modal-fail.fail,
 #modal.point .content {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
+#modal-fail.fail h1,
 #modal.point h1 {
     color: white;
     margin-top: 30px;
+}
+
+#modal-fail.fail .content {
+    background-color: #0e0a14ef;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 92vh;
+    position: fixed;
+    top: 30px;
+    right: 45px;
+    transition: 500ms;
+    width: 92vw;
+}
+
+#modal-fail.fail .content a {
+    background-image: url("../assets/x.svg");
+    display: flex;
+    font-size: 0.01px;
+    height: 20px;
+    transition: 500ms; 
+    width: 20px;
+}
+
+#modal-fail.fail .content a:active,
+#modal-fail.fail .content a:hover {
+    background-image: url("../assets/x-hover-active.svg");
+}
+
+#modal-fail.fail .content .cadas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

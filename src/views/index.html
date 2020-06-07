@@ -36,6 +36,12 @@
     {% include "parcials/model.html" %}
 {% endblock modal %}
 
+{% block modal2 %}
+    {% if fail %}
+        {% include "parcials/fail.html"%}
+    {% endif %}
+{% endblock modal2 %}
+
 {% block scripts %}
     <script src="/scripts/index.js"></script>
 {% endblock scripts %}
