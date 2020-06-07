@@ -9,36 +9,32 @@
 {% block content %}
     {% include "parcials/page-header.html" %}
     <main>
-        <h4>
-            <strong>2 pontos</strong>
-            encontrados
-        </h4>
+        {% if total > 0 %}
+            <h4>
+                <strong>{{ total }}
+                    pontos</strong>
+                encontrados
+            </h4>
 
-        <div class="cards">
-            <div class="card">
-                <img src="https://images.unsplash.com/photo-1528323273322-d81458248d40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=801&q=80" alt="Colectoria">
-                <h1>Colectoria</h1>
-                <h3>Resíduos Eletrônicos, Lâmpadas</h3>
-                <p>
-                    Rio do Sul, Santa Catarina
-                    <br/>
-                    Guilherme Gemballa, Jardim América
-                    <br/>
-                    Nº 260
-                </p>
+            <div class="cards">
+                {% for lugar in lugares %}
+                    <div class="card">
+                        <img src="{{ lugar.image }}" alt="{{ lugar.name }}">
+                        <h1>{{ lugar.name }}</h1>
+                        <h3>{{ lugar.items }}</h3>
+                        <p>
+                            {{ lugar.city }},
+                            {{ lugar.uf }}
+                            <br/>
+                            {{ lugar.address }}
+                            <br/>
+                            Nº {{ lugar.address2 }}
+                        </p>
+                    </div>
+                {% endfor %}
             </div>
-            <div class="card">
-                <img src="https://images.unsplash.com/photo-1589455719452-1ac812ae7a0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Papersider">
-                <h1>Papersider</h1>
-                <h3>Papéis e Papelão</h3>
-                <p>
-                    Rio do Sul, Santa Catarina
-                    <br/>
-                    Guilherme Gemballa, Jardim América
-                    <br/>
-                    Nº 260
-                </p>
-            </div>
-        </div>
+        {% else %}
+            <h4><strong>Nenhum</strong> local cadastrado</h4>
+        {% endif %}
     </main>
 {% endblock content %}

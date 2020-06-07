@@ -1,14 +1,14 @@
 #page-create-point {
     max-width: 1100px;
     width: 90%;
-    margin-left: 100px;
+    margin: 0 auto;
 }
 
 #page-create-point header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 45px;
+    margin-top: 48px;
 }
 
 #page-create-point header a {
@@ -16,7 +16,6 @@
     display: flex;
     align-items: center;
     font-weight: bold;
-    transition: 400ms;
 }
 
 #page-create-point header a:active,

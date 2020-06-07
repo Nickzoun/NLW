@@ -13,7 +13,7 @@ UFs()
 
 function getCities(event) {
     const citySelect = document.querySelector("select[name=city]")
-    const stateInput = document.querySelector("input[name=state]")
+    const stateInput = document.querySelector("input[name=uf]")
     const ufValue = event.target.value
     const indexOfSelectedState = event.target.selectedIndex
     stateInput.value = event.target.options[indexOfSelectedState].text
