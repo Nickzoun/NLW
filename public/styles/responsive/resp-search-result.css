@@ -41,3 +41,34 @@
         font-size: 16px;
     }
 }
+
+@media (min-width: 800px) {
+    body {
+        margin-left: 40px;
+    }
+
+    #page-search-result header a {
+        font-size: 20px;
+    }
+
+    #page-search-result main .card h1 {
+        font-size: 36px;
+    }
+    #page-search-result main .card h3 {
+         font-size: 22px;
+    }
+
+    #page-search-result main .card p {
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 1100px) {
+    #page-search-result {
+        margin: 0 0 0 75px;
+    }
+
+    #page-search-result main .cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

@@ -75,6 +75,27 @@
 }
 
 @media (min-width: 800px) {
+    #page-create-point header a {
+        font-size: 20px;
+    }
+
+    #page-create-point form h1 {
+        font-size: 2.3em;
+        text-align: center;
+    }
+
+    #page-create-point form label {
+        font-size: 0.95em;
+    }
+
+    #page-create-point form legend h2 {
+        font-size: 1.6em;
+    }
+
+    #page-create-point form legend span {
+        font-size: 1.1em;
+    }
+
     #page-create-point .field-group {
         flex-direction: unset;
     }
@@ -86,5 +107,32 @@
     #page-create-point form select,
     #page-create-point form input {
         width: 300px;
+    }
+    #page-create-point form button {
+        margin-left: 181px;
+        width: 270px;
+        height: 60px;
+    }
+    #page-create-point .field input[id="numero"] {
+        width: 220px;
+    }
+}
+
+@media (min-width: 1100px) {
+    #page-create-point form input,
+    #page-create-point form select {
+        width: 323px;
+    }
+
+    #page-create-point form input[name="address"] {
+        width: 427px;
+    }
+
+    #page-create-point form button {
+        margin-left: 200px;
+    }
+
+    #page-create-point .items-grid {
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }

@@ -71,4 +71,34 @@
     #modal .content input {
         width: 230px;
     }
+
+    #modal.point {
+        right: 43px;
+    }
+
+    #modal-fail.fail .content {
+        right: 30px;
+    }
+
+    #modal.point h1,
+    #modal-fail.fail h1 {
+        font-size: 2.6em;
+    }
+}
+
+@media (min-width: 1100px) {
+    #modal {
+        height: 93vh;
+        width: 92vw;
+        top: 25px;
+        right: 43px;
+    }
+
+    #modal .header h1 {
+        font-size: 2em;
+    }
+
+    #modal-fail.fail .content {
+        right: 43px;
+    }
 }
