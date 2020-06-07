@@ -1,0 +1,43 @@
+@media (min-width: 360px) {
+    #page-search-result {
+        margin: 0 0 0 15px;
+    }
+
+    #page-search-result header a {
+        margin-left: 59px;
+    }
+
+    #page-search-result header a span {
+        width: 23px;
+        margin: 0 4px 4px 0;
+    }
+
+    #page-search-result main .cards h1,
+    #page-search-result main .cards h3,
+    #page-search-result main .cards p,
+    #page-search-result main h4 {
+        text-align: center;
+    }
+
+    #page-search-result main .cards {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 500px) {
+    #page-search-result main .cards {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #page-search-result main .card h1 {
+        font-size: 32px;
+    }
+
+    #page-search-result main .card h3 {
+     font-size: 18px;   
+    }
+
+    #page-search-result main .card p {
+        font-size: 16px;
+    }
+}

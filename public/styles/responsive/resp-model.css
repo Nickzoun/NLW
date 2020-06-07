@@ -1,0 +1,74 @@
+@media (min-width: 360px) {
+    #modal {
+        right: 20px;
+    }
+
+    #modal .content {
+        width: 225px;
+    }
+
+    #modal .header h1 {
+        font-size: 1.7em;
+    }
+
+    #modal .header a {
+        background-image: url("../../assets/x.svg") no-repeat;
+        width: 30px;
+    }
+    
+    #modal input {
+        width: 210px;
+    }
+
+    #modal.point {
+        right: 20px;
+    }
+
+    #modal.point .content {
+        justify-content: center;
+    }
+
+    #modal.point h1 {
+        font-size: 1.73em;
+        text-align: center;
+    }
+
+    #modal-fail.fail .content {
+        right: 15px;
+    }
+}
+
+@media (min-width: 500px) {
+    #modal .content {
+        width: 290px;
+    }
+
+    #modal .header h1 {
+        font-size: 1.85em;
+    }
+
+    #modal .header a {
+        width: 25px;
+    }
+
+    #modal input {
+        width: 220px;
+    }
+}
+
+@media (min-width: 800px) {
+    #modal {
+        right: 37px;
+    }
+
+    #modal .content {
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+  
+    #modal .content input {
+        width: 230px;
+    }
+}

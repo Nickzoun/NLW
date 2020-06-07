@@ -1,0 +1,90 @@
+@media (min-width: 360px) {
+    #page-create-point .field-group {
+        flex-direction: column;
+    }
+
+    #page-create-point .field-group .field + .field {
+        margin-left: 0;
+    }
+
+    #page-create-point form {
+        padding: 64px 32px;
+    }
+
+    #page-create-point form h1 {
+        font-size: 2em;
+        margin: 0 0 10px 0;
+    }
+
+    #page-create-point form legend h2 {
+        font-size: 1.3em;
+        margin: 25px 0 20px;
+    }
+
+    #page-create-point form legend span {
+        font-size: 0.85em;
+        margin-left: 44px;
+    }
+
+    #page-create-point form label {
+        font-size: 0.8em;
+        margin: 8px 0;
+    }
+
+    #page-create-point form button {
+        margin-left: 2px;
+        width: 242px;
+    }
+
+    #page-create-point form fieldset {
+        padding: 0;
+    }
+
+    #page-create-point form select,
+    #page-create-point form input {
+        width: 240px;
+    }
+
+    .items-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 500px) {
+    .items-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #page-create-point .field input[id="numero"] {
+        max-width: 240px;
+    }
+
+    #page-create-point form select, 
+    #page-create-point form input {
+        width: 320px;
+    }
+
+    #page-create-point form button {
+        margin-left: 65px;
+    }
+
+    #page-create-point form legend span {
+        font-size: 0.9em;
+        margin-left: 125px;
+    }
+}
+
+@media (min-width: 800px) {
+    #page-create-point .field-group {
+        flex-direction: unset;
+    }
+
+    #page-create-point form .field-group .field+.field {
+        margin-left: 15px;
+    }
+
+    #page-create-point form select,
+    #page-create-point form input {
+        width: 300px;
+    }
+}

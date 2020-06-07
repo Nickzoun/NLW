@@ -1,0 +1,55 @@
+@media (min-width: 360px) {
+    #page-home main h1 {
+        font-size: 2.3em;
+    }
+
+    #page-home header a span {
+        width: 24px;
+        margin-right: 5px;
+    }
+
+    #page-home {
+        background-position-x: 70vw;
+    }
+
+    #page-home .content {
+        align-items: center;
+        text-align: center;
+    }
+
+    #page-home header a {
+        left: 50%;
+        transform: translateX(-53%);
+        position: absolute;
+        bottom: 30px;
+    }
+
+    #page-home main {
+        align-items: center;
+    }
+
+    #page-home main a {
+        margin-top: 18px;
+    }
+
+    #page-home main p {
+        font-size: 1.2em;
+    }
+}
+
+@media (min-width: 500px) {
+    #page-home main h1 {
+        font-size: 2.9em;
+        margin-bottom: 20px;
+    }
+
+    #page-home main p {
+        font-size: 1.5em;
+        margin: 20px 0 15px;
+    }
+
+    #page-home header a {
+        bottom: 65px;
+        font-size: 1.1em;
+    }
+}
